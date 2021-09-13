@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Memoirs",
+    name: "NanoSubscriptions",
     platforms: [ .iOS(.v11), .macOS(.v11) ],
     products: [
         .library(name: "NanoSubscriptions", type: .static, targets: [ "NanoSubscriptions" ]),
